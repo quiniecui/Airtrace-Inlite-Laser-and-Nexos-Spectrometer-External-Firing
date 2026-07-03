@@ -36,7 +36,7 @@ const int PIN_READY   = 7;   // -> STANDBY/READY   (DB-15 pin 4)
 const int PIN_SHUTTER = 8;   // -> SHUTTER         (DB-15 pin 5)
 const int PIN_FIRE    = 9;   // -> FLASHLAMP FIRE  (DB-15 pin 15)
 
-// ---- Fire pulse timing (>=10us per manual; 50us is comfortable) ----
+// ---- Fire pulse timing (10us-5ms) ----
 const unsigned long FIRE_PULSE_US = 200000;
 
 // ---- Watchdog: drop to safe if GUI stops sending PING ----
